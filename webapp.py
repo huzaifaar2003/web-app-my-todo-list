@@ -27,5 +27,3 @@ for index, todo in enumerate(todos):
 st.text_input(label = "", placeholder="Enter a todo",
               on_change=add_todo, key= "input")
 #the "on_change" parameter is for when the Enter key is pressed
-
-st.session_state
